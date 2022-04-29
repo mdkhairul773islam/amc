@@ -1,0 +1,266 @@
+/* notice style start */
+.notice_section {
+	padding: 75px 0 45px;
+    background: #fff;
+}
+/*.notice_section .row {*/
+/*    margin-right: -10px;*/
+/*    margin-left: -10px;*/
+/*}*/
+/*.notice_section .row > .col,*/
+/*.notice_section .row > [class*=col-] {*/
+/*    padding-right: 10px;*/
+/*    padding-left: 10px;*/
+/*}*/
+.notice_section .notice_board {
+    border-top: 8px solid #0B499D;
+    text-align: justify;
+    padding: 30px 25px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: inline-block;
+    box-shadow: 0 8px 8px 8px #ddd;
+}
+.notice_section .aside_content {
+    box-shadow: 0 8px 8px 8px #ddd;
+    margin-bottom: 20px;
+    background: #F7F7F7;
+}
+.notice_section .aside_content h4 {
+    background: #0B499D;
+    font-weight: 600;
+    font-size: 23px;
+    padding: 0 15px;
+    color: #fff;
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+.notice_section .notice_list {margin: 0;}
+.notice_section .notice_list li:last-child {border: none;}
+.notice_section .notice_list li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0 15px;
+}
+.notice_section .notice_list .title:hover {color: #000;}
+.notice_section .notice_list .title {
+    display: inline-block;
+    margin-bottom: 5px;
+    line-height: 20px;
+    font-size: 18px;
+    color: #0B499D;
+    font-weight: 600;
+    transition: all .2s;
+}
+.notice_section .notice_list span {
+    font-size: 13px;
+    display: block;
+    margin: 12px 0;
+    font-weight: 500;
+}
+.notice_section .notice_list .read_more:hover {
+    background: #0B499D;
+    color: #fff;
+}
+.notice_section .notice_list .read_more i {
+    vertical-align: middle;
+    font-size: 12px;
+    margin: -3px 2px 0 0;
+}
+.notice_section .notice_list .read_more {
+    border: 1px solid #0B499D;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 12px;
+    color: #0B499D;
+    min-width: 100px;
+    padding: 4px 12px;
+    text-align: center;
+    border-radius: 20px;
+    transition: all .2s;
+}
+.notice_section .aside_list li {border-bottom: 1px solid #ccc;}
+.notice_section .aside_list li:last-child {border: none;}
+.notice_section .aside_list {
+    padding: 0 15px;
+    margin: 0;
+}
+.notice_section .aside_list a:hover {color: #000;}
+.notice_section .aside_list a {
+    transition: all .2s;
+    position: relative;
+    font-weight: 600;
+    color: #0B499D;
+    width: 100%;
+    display: inline-block;
+    padding: 5px 45px 5px 0;
+}
+.notice_section .aside_list small {
+    border-radius: 15px;
+    position: absolute;
+    font-size: 10px;
+    right: 0;
+    top: 10px;
+    color: #fff;
+    padding: 0 5px;
+    min-width: 25px;
+    text-align: center;
+    background: #0B499D;
+}
+
+
+
+
+.notice_section .notice_content {
+    box-shadow: 0 8px 8px 8px #ddd;
+    margin-bottom: 20px;
+}
+.notice_section .notice_summary {
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+}
+.notice_section .notice_content .download:hover {
+    background: #08336D;
+    color: #fff;
+}
+.notice_section .notice_content .download {
+    display: inline-block;
+    background: #0B499D;
+    transition: all .2s;
+    align-items: center;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+.notice_section .notice_content .download i {
+    display: inline-block;
+    font-size: 10px;
+    margin-top: -3px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.notice_section .notice_summary img {
+    transition: all .2s;
+    object-fit: cover;
+    height: 215px;
+    width: 100%;
+}
+.notice_section .notice_content:hover img {transform: scale(1.05);}
+.notice_section .notice_article {
+    padding: 20px 20px 30px;
+    background: #F2F2F2;
+    position: relative;
+    min-height: 225px;
+}
+.notice_section .notice_article .date {
+    margin: 0 12px 6px 0;
+    padding: 4px 8px 2px;
+    margin-right: 20px;
+    text-align: center;
+    display: inline;
+    float: left;
+    background: #0B499D;
+}
+.notice_section .notice_article .date h2 {
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0;
+    color: #fff;
+}
+.notice_section .notice_article .date p {
+    line-height: 20px;
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+}
+.notice_section .notice_article h4 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 9px;
+}
+.notice_section .notice_article h4 a {
+    transition: all .2s;
+    color: #000;
+}
+.notice_section .notice_article h4 a:hover {color: #0B499D;}
+.notice_section .notice_article p {margin-bottom: 8px;}
+.notice_section .notice_article .read_more {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    color: #0B499D;
+    font-size: 15px;
+}
+.notice_section .notice_article .read_more:hover {text-decoration: underline;}
+@media screen and (max-width: 768px) {
+    .notice_section {padding: 65px 0 35px;}
+}
+/* notice section end */
+
+
+
+/* pagination css start */
+.pagination {
+    box-shadow: 0px 3px 15px 3px rgba(7, 21, 49, .05);
+    display: inline-block;
+    margin: 25px 0 0;
+}
+.pagination li {
+    border: 1px solid rgba(0, 33, 71, 0.4);
+    display: inline-block;
+    line-height: 38px;
+    color: #0B499D;
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.2s;
+    text-decoration: none;
+}
+.pagination li a {
+    display: inline-block;
+    transition: all 0.2s;
+    color: #0B499D;
+    width: 100%;
+    height: 100%;
+}
+.pagination li:hover, 
+.pagination li.active {border-color: #0B499D;}
+.pagination li:hover a, .pagination li.active a {
+    background: #0B499D;
+    color: #fff;
+}
+.pagination li:first-child, 
+.pagination li:last-child {
+    border: 1px solid rgba(0, 33, 71, .4);
+    display: inline-block;
+    min-width: 40px;
+    width: auto;
+    margin: 2px;
+    height: 40px;
+    line-height: 36px;
+}
+.pagination li:first-child span, 
+.pagination li:last-child span, 
+.pagination li:first-child a, 
+.pagination li:last-child a {padding: 0 12px;}
+.pagination li:first-child span, 
+.pagination li:last-child span {
+    display: inline-block;
+    cursor: no-drop;
+    width: 100%;
+    height: 100%;
+}
+.pagination li:first-child {margin-left: 0;}
+.pagination li:last-child {margin-right: 0;}
+/* pagination css end */

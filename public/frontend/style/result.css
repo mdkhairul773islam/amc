@@ -1,0 +1,125 @@
+
+.hide > h3, .hide > h4 {margin: 2px 0 10px 0;}
+.hide {display: none;}
+
+ @media print{
+    aside, nav, .none, .panel-heading, .panel-footer{display: none !important;}
+    .panel{
+        border: 1px solid transparent;
+        left: 0px;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+    }
+    .hide{display: block !important;}
+    .site_name {color: red !important;font-weight: 700;}
+    .padding_none {padding: 0 !important;}
+    table.table.table-bordered tr th, table.table.table-bordered tr td {
+        padding: 2px 15px !important;
+    }
+    .border_url {
+        border: 13px solid transparent;
+        padding: 0;
+        -webkit-border-image: url('../../public/frontend/images/border/border-transparent.png') 30 stretch;
+        -moz-border-image: url('../../public/frontend/images/border/border-transparent.png') 30 stretch;
+        border-image: url('../../public/frontend/images/border/border-transparent.png') 30 stretch;
+    }
+}
+.table_border_none tr td.padding_none {border: 1px solid transparent !important;}
+
+
+
+
+
+
+
+
+
+
+.hide_banner {
+    height: 200px;
+    width: 100%;
+}
+.header_banner {
+    border: 2px solid #0B499D;
+    background: #0B499D;
+    color: #eee;
+}
+
+.header_banner figure img {
+    max-width: 65% !important;
+}
+
+.header_banner h1, .header_banner h4, .header_banner p {
+    margin-left: -150px;
+}
+
+.hr_style {display: block;width: 100%;border-top: 1px solid #0B499D !important;}
+
+.wrapper {
+    min-height: 100vh;
+    -webkit-box-shadow: 0 0 30px #d3d3d3;
+    -moz-box-shadow: 0 0 30px #d3d3d3;
+    box-shadow: 0 0 30px #d3d3d3;
+    width: 100%;
+}
+.className {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.bootstrap-select .dropdown-toggle:focus,
+.bootstrap-select>select.mobile-device:focus+.dropdown-toggle,
+.btn-light:not(:disabled):not(.disabled).active:focus,
+.btn-light:not(:disabled):not(.disabled):active:focus,
+.show>.btn-light.dropdown-toggle:focus, .form-control:focus,
+.form-select:focus, select.form-control:focus {
+    border-color: #0B499D !important;
+    box-shadow: 0 0 0 0.25rem rgb(11 73 157 50%) !important;
+}
+
+.bootstrap-select .dropdown-toggle:focus,
+.bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
+    outline: none !important;
+}
+
+.bootstrap-select>.dropdown-toggle {
+    border: 1px solid #ced4da;
+}
+.submit_btn, .print {
+    background: #0B499D;
+    color: #fff;
+    padding: 6px 55px;
+    font-weight: bold;
+    transition: 0.6s ease-in-out;
+}
+
+.submit_btn:hover, .print:hover {
+    background: #1976D2;
+    color: #fff;
+    transition: 0.6s ease-in-out;
+}
+
+
+
+.secound_footer {
+    background: #0B499D;
+    width: 100%;
+}
+
+.secound_footer .footer_info p a {
+    color: #fff;
+}
+
+.secound_footer .footer_info p {
+    margin: 5px 0;
+    color: #fff;
+}
+
+.secound_footer .footer_info {
+    align-items: center;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}

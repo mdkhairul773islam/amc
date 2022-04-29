@@ -1,0 +1,74 @@
+/* department card start */
+.department_card {
+	padding: 75px 0 45px;
+    background: #fff;
+}
+.department_card .row {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.department_card .row > .col,
+.department_card .row > [class*=col-] {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.department_card .card_box {
+    box-shadow: 0 8px 8px 8px #ddd;
+    margin-bottom: 20px;
+}
+.department_card .card_box .card_img {
+    overflow: hidden;
+    margin: 0;
+}
+.department_card .card_box .card_img:hover img {transform: scale(1.05);}
+.department_card .card_box .card_img img {
+    transition: all .2s;
+    max-height: 245px;
+    width: 100%;
+    object-fit: cover;
+}
+.department_card .card_article {
+    padding: 20px 15px;
+    min-height: 165px;
+    position: relative;
+    padding-bottom: 65px;
+}
+.department_card .card_box:hover h4 a {color: #000;}
+.department_card .card_article h4 a {
+    display: inline-block;
+    transition: all .2s;
+    margin: 0 0 15px;
+    font-size: 22px;
+    color: #0B499D;
+    font-weight: 700;
+}
+.department_card .card_article a.btn:hover i {margin: -2px 0 0 5px;}
+.department_card .card_article a.btn:hover {
+    background: #0B499D;
+    color: #fff;
+}
+.department_card .card_article a.btn i {
+    vertical-align: middle;
+    transition: all .2s;
+    font-size: 14px;
+    margin: -2px 0 0 3px;
+}
+.department_card .card_article a.btn {
+    border: 1px solid #0B499D;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
+    color: #0B499D;
+    left: 16px;
+    bottom: 20px;
+    min-width: 120px;
+    padding: 7px 20px;
+    position: absolute;
+    text-align: center;
+    border-radius: 20px;
+    transition: all .2s;
+}
+@media screen and (max-width: 768px) {
+    .department_card {padding: 65px 0 35px;}
+}
+/* department card end */

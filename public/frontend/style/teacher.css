@@ -1,0 +1,57 @@
+/* teacher section start */
+.teacher_section {
+    padding: 60px 0 75px;
+    background: #fff;
+}
+.teacher_section .teacher_box img {
+    object-fit: cover;
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+    max-height: 200px;
+    border-radius: 50%;
+}
+.teacher_section .teacher_box {
+    box-shadow: 0 8px 8px 8px #ddd;
+    border-top: 8px solid #0B499D;
+    background: #fff;
+    text-align: center;
+    margin: 15px 0;
+    width: 100%;
+    padding: 30px 25px;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+.teacher_section .teacher_box p {margin-bottom: 0;}
+.teacher_section h5 {
+    margin-bottom: 5px;
+    color: #0B499D;
+    margin-top: 15px;
+    font-weight: 700;
+}
+.teacher_section form {
+    border-bottom: 1px solid #0B499D;
+    margin-bottom: 15px;
+}
+.teacher_section .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 2px;
+    line-height: 40px;
+    height: 40px;
+    resize: none;
+}
+.teacher_section .src_btn {
+    transition: all 0.2s;
+    background: #0B499D;
+    line-height: 40px;
+    box-shadow: none;
+    padding: 0 15px;
+    height: 40px;
+    outline: none;
+    color: #FFF;
+    border: none;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.teacher_section .src_btn:hover {background: #08336D;}
+/* teacher section end */
